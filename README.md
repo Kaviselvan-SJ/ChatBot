@@ -32,7 +32,8 @@ An AI-powered chatbot built with **Streamlit**, **FastAPI**, and **LangGraph** t
  ┣ 📂 backend
  ┃ ┣ 📜 main.py        # FastAPI entrypoint
  ┃ ┣ 📜 graph.py       # LangGraph + Gemini model integration
- ┣ 📜 frontend.py      # Streamlit UI
+ ┣ 📂 frontend
+ ┃ ┣ 📜 app.py        # FastAPI entrypoint
  ┣ 📜 requirements.txt # Python dependencies
  ┣ 📜 README.md        # Project documentation
 ```
@@ -104,24 +105,6 @@ PyPDF2
 python-dotenv
 ```
 
----
 
-## 🔮 Roadmap
-- [ ] Support for Word (`.docx`) files  
-- [ ] Multi-document summarization  
-- [ ] Embeddings + RAG for deep question answering  
-- [ ] Deploy to Vercel/Render  
-
----
-
-## 📝 License
-MIT License. Free to use and modify.  
-
----
 
 ## 📸 Screenshots (Optional)
-You can add images of your app here:
-```
-![Chat UI](screenshots/chat_ui.png)
-![Document Upload](screenshots/document_upload.png)
-```
